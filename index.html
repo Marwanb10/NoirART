@@ -40,7 +40,7 @@
     color:var(--ink);
     line-height:1.7;
     overflow-x:hidden;
-    -webkit-font-smoothing:antialiased;
+    -webkit-font-smoothing:antialiased; 
   }
   img,svg{display:block;max-width:100%;}
   a{text-decoration:none;color:inherit;}
@@ -933,20 +933,30 @@
   const WHATSAPP_NUMBER = "212603390071";
 
   const CATEGORY_OPTIONS = [
-    "Nature Escapes — استكشاف الطبيعة",
-    "Floral Serenity — صفاء الأزهار",
+    "Nature — استكشاف الطبيعة",
+    "Flowers — الأزهار",
     "Mindful Moments — لحظات التأمل",
-    "Cozy Moments — لحظات دافئة",
-    "Botanical Wonders — عجائب نباتية"
+    "Fashion & Girly — الأناقة الأنثوية",
+    "Cities & Architecture — المدن والعمارة",
+    "Animals — الحيوانات",
+    "Travel — رحلات حول العالم",
+    "Home & Interior — المنزل والديكور",
+    "Butterflies & Birds — الفراشات والطيور",
+    "Forest Adventures — مغامرات الغابة",
+    "Mountain Landscapes — المناظر الجبلية",
+    "Autumn Vibes — أجواء الخريف",
+    "Winter Wonderland — عالم الشتاء",
+    "Spring Blossoms — أزهار الربيع",
+    "Summer Dreams — أحلام الصيف"
   ];
 
   // ---------- OFFERS DATA ----------
   const offers = [
-    { id:0, books:2, gift:false, pencils:true,  oldPrice:249, price:199, badge:null },
-    { id:1, books:3, gift:false, pencils:true,  oldPrice:349, price:279, badge:"bestseller" },
-    { id:2, books:4, gift:true,  pencils:false, oldPrice:449, price:349, badge:null },
-    { id:3, books:5, gift:true,  pencils:false, oldPrice:549, price:419, badge:null },
-    { id:4, books:6, gift:true,  pencils:false, oldPrice:649, price:479, badge:"bestvalue" }
+    { id:0, books:2, gift:false, pencils:true,  oldPrice:180, price:150, badge:"bestseller" },
+    { id:1, books:3, gift:false, pencils:true,  oldPrice:270, price:240, badge:"bestseller" },
+    { id:2, books:4, gift:true,  pencils:false, oldPrice:360, price:299, badge:null },
+    { id:3, books:5, gift:true,  pencils:false, oldPrice:450, price:399, badge:null },
+    { id:4, books:6, gift:true,  pencils:false, oldPrice:540, price:499, badge:"bestvalue" }
   ];
 
   function offerTitle(o){
